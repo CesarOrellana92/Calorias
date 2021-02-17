@@ -25,6 +25,9 @@ public class ComidaController {
         return platoService.getCaloriaTotal(platosDTO);
     }
 
+
+
+
     @PostMapping("/ingredientes")
     public List<IngredienteRespDTO> getIngredientes (@RequestBody PlatosDTO platosDTO) {
         return platoService.getIngredientes(platosDTO);
